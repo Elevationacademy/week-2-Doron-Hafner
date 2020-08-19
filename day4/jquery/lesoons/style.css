@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+  }
+  .box3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+  }
+  

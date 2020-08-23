@@ -62,13 +62,13 @@
 
 
 //-----------------------Exercise7-ArrowFunctions----------------------
-// const explode = (lightFunc, soundFunc, sound) => {
-//     lightFunc()
-//     soundFunc(sound)
-//   }
+const explode = (lightFunc, soundFunc, sound) => {
+    lightFunc()
+    soundFunc(sound)
+  }
       
-//   const shineLight = () => document.getElementById("box").style.backgroundColor = "yellow"
+  const shineLight = () => document.getElementById("box").style.backgroundColor = "yellow"
       
-//   const makeSound = sound => alert(sound)
+  const makeSound = sound => alert(sound)
       
-//   explode(shineLight, makeSound, "BOOM")
+  explode(shineLight, makeSound, "BOOM")

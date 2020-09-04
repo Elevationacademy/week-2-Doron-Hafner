@@ -1,0 +1,42 @@
+#header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr;
+    height: 5vh;
+    width: 100vw;
+    border: solid 1px black;
+    
+}
+#content {
+    display: grid;
+    grid-template-columns: 20fr 40fr 40fr;
+    width: 100vw;
+    height: 85vh;
+    margin: 10% 0;
+}
+#left-container{
+    width: 20vw;
+    display: grid;
+
+}
+#left-container div{
+    width: 30%;
+    height: 24%;
+    border: solid 1px black;
+    margin: auto;
+}
+#middle-container{
+    display: grid;
+    margin: 0 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40vw;
+}
+#middle-container div {
+    width: 1fr;
+    border: solid 1px black;
+    margin: 50% 0;
+}
+#right-container{
+    display: grid;
+    
+
+}
